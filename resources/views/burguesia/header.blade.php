@@ -13,6 +13,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
     <title>La burguesía</title>
+    <link rel="shortcut icon" href="img/iconoBurguesia.jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -52,7 +53,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
                 </li>
                 <!--modificado-->
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#comentarios" style="font-size: 18px;">Comentarios</a>
+                    <!--modificado x tu mailof: href="{{url('/#comentarios')}}"-->
+                    <!--con esto no importa en donde se encuentre se dirrecciona al index y da scroll-->
+                    <a class="nav-link text-white" href="{{url('/#comentarios')}}" style="font-size: 18px;">Comentarios</a>
                 </li>
                 <!--modificado-->
             </ul>
