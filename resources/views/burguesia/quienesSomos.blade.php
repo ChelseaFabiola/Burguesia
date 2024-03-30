@@ -68,7 +68,7 @@
 <div id="ventanaFlotante" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <h4>Contactenos en:</h4>
+                <h4 style="text-align: center;">Contactenos en:</h4>
                 <hr>
                 <div class="container">
                     <div class="row">
