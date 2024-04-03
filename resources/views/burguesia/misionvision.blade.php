@@ -36,6 +36,25 @@
         margin-right: 80px; /* Ajuste del margen derecho */
     }
 
+    /* Estilos específicos para tamaños de pantalla pequeños */
+    @media screen and (max-width: 768px) {
+            .container-vision {
+                flex-direction: column;
+                height: auto; /* Ajusta la altura automáticamente */
+            }
+            .card {
+                margin: 0 auto 20px; /* Centra el card y agrega espacio entre ellos */
+                width: 80%; /* Ancho ajustado */
+            }
+            .segunda-col-vertical {
+                margin-left: 0; /* Elimina el margen izquierdo en pantallas pequeñas */
+            }
+            .union {
+                flex-direction: column; /* Cambia a una columna en pantallas pequeñas */
+                align-items: center; /* Centra los elementos */
+            }
+        }
+
   </style>
 
 
@@ -230,10 +249,10 @@
                         <div class="col-7">
                             <br>
                             <div class="contact-info">
-                                <img src="img/whatsapp.png" alt="WhatsApp" class="contact-icon"<p>983 120 8934</p>                           
+                                <img src="img/whatsapp.png" alt="WhatsApp" class="contact-icon"><p>983 120 8934</p>                           
                             </div>
                             <div class="contact-info">
-                                <img src="img/gmail.png" alt="Gmail" class="contact-icon"<p>laburguesia.bacalar@gmail.com</p>
+                                <img src="img/gmail.png" alt="Gmail" class="contact-icon"><p>laburguesia.bacalar@gmail.com</p>
                             </div>
                         </div>
                     </div>
